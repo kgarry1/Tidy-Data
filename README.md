@@ -58,7 +58,7 @@ for (i in fullnames) {
 }
 ```
 
-Sorted the data by 'subject' and output data file
+Sorted the data by 'subject' and output data file, comma separated
 ```
 final.data<-temp0
 final.data$subject <- as.numeric(as.character(final.data$subject))
